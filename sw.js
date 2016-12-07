@@ -5,7 +5,7 @@ this.addEventListener('install', function(event) {
       return cache.addAll([
         '/cerati/',
         '/cerati/index.html',
-        '/cerati/app.js'
+				'/cerati/assets/app.js'
       ]);
     })
   );
