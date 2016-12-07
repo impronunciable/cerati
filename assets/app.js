@@ -56,7 +56,7 @@
 
 	(0, _preact.render)((0, _preact.h)(_App2.default, null), document.querySelector('#root'));
 
-	if ('serviceworker' in navigator) {
+	if ('serviceWorker' in navigator) {
 	  navigator.serviceWorker.register('sw.js').then(function (reg) {
 	    console.log('◕‿◕', reg);
 	  }, function (err) {

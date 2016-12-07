@@ -4,7 +4,7 @@ import App from 'components/App'
 
 render(<App />, document.querySelector('#root'))
 
-if ('serviceworker' in navigator) {
+if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').then(function(reg) {
     console.log('◕‿◕', reg);
   }, function(err) {
